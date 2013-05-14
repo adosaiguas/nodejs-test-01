@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-testing-01",
+  "version": "0.0.0",
+  "description": "Test app",
+  "scripts": {
+    "start": "node lib/app.js",
+    "test": "nodeunit ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dev-server.dosaiguas.net:nodejs-testing"
+  },
+  "author": "Agustí Dosaiguas",
+  "license": "BSD"
+}
