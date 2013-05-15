@@ -8,8 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@dev-server.dosaiguas.net:nodejs-testing"
+    "url": "git@dev-server.dosaiguas.net:nodejs-testing-01"
   },
   "author": "Agustí Dosaiguas",
-  "license": "BSD"
+  "license": "MIT",
+  "devDependencies": {
+    "nodeunit":  "0.8.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
 }
