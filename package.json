@@ -4,7 +4,7 @@
   "description": "Test app",
   "scripts": {
     "start": "node lib/app.js",
-    "test": "nodeunit ./test"
+    "test": "jshint lib && jshint test && nodeunit ./test"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,12 @@
   "author": "Agustí Dosaiguas",
   "license": "MIT",
   "devDependencies": {
-    "nodeunit":  "0.8.0"
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.4.3",
+    "nodeunit": "~0.8.0",
+    "matchdep": "~0.1.2"
   },
   "engines": {
     "node": ">=0.10"
