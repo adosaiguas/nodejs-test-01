@@ -1,10 +1,10 @@
 {
   "name": "nodejs-testing-01",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test app",
   "scripts": {
     "start": "node lib/app.js",
-    "test": "jshint lib && jshint test && nodeunit ./test"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
