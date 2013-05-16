@@ -18,7 +18,8 @@
     "grunt-contrib-nodeunit": "~0.1.2",
     "grunt-contrib-watch": "~0.4.3",
     "nodeunit": "~0.8.0",
-    "matchdep": "~0.1.2"
+    "matchdep": "~0.1.2",
+    "grunt-cli": "~0.1.8"
   },
   "engines": {
     "node": ">=0.10"
