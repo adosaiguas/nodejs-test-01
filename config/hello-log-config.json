@@ -1,0 +1,15 @@
+{
+  "console": {
+    "level": "debug",
+    "colorize": true,
+    "timestamp": true,
+    "label": "hello"
+  },
+  "file": {
+    "level": "debug",
+    "filename": "nodejs-testing-01.log",
+    "timestamp": true,
+    "json": false,
+    "label": "hello"
+  }
+}
